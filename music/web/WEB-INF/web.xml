@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+   <!-- <servlet>
+        <servlet-name>LibraryController</servlet-name>
+        <servlet-class>goldenoaks.controllers.LibraryController</servlet-class>
+    </servlet>-->
+   <!-- <servlet-mapping>
+        <servlet-name>LibraryController</servlet-name>
+        <url-pattern>/goldenoaks</url-pattern>
+    </servlet-mapping>-->
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>C:\Users\sony\Desktop\Master's\NBAD\final project\Project music\music\web\images</param-value>
+    </context-param>
+  <welcome-file-list>
+    <welcome-file>UserController</welcome-file>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,215 @@
+
+body {
+    min-height: 100%;
+    margin:0 auto;
+
+    clear: both;
+}
+
+table, th, td{
+
+    border:1px solid black;
+    padding: 1em;
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color: slategray;
+    color:black;
+    border-color:black;
+}
+
+td{
+    text-align: center;
+
+}
+
+td img{
+    width : 50px;
+    height:50px;
+}
+nav{
+    background-color: black;
+    margin:0;
+    overflow: hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+
+}
+
+/* header.jsp ********************************/
+
+nav#header_menu ul.right li a {
+
+    color: #33a6cc;
+
+    display: block;
+    line-height: 2em;
+
+    padding: 1em 1em;
+    text-decoration: none;
+    
+}
+
+nav#menu {
+    color: black;
+    background-color: #CCFFCC;
+    font-weight: bold;
+    float:left;
+    display: block;
+    line-height: 3em;
+    margin: 20px ;
+    margin-bottom: 100px;
+    border : 1px solid black;
+    
+    text-decoration: none;
+    width:150px;
+
+}
+
+nav#header_menu ul li{
+
+    color: #33a6cc;
+    display:inline-block;
+    list-style-type: none;
+}
+
+nav .left{
+    float:left;
+    padding: 1em 1em;
+}
+
+nav .left a{
+  font-weight: bold;
+  font-size:20px;
+  color: #333465;
+}
+
+nav .right{
+    float:right;
+    margin-right:2em;
+
+}
+
+/* footer.jsp *******************************/
+
+.footer{
+
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 0px 0px;
+    background: #428bca;
+    text-align:center;
+    color:white;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.footer1{
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0px 0px;
+    background: #428bca;
+    text-align:center;
+    color:white;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+nav#menu ul li{
+    display:block;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    text-align: left;
+    padding-left: 1em;
+}
+
+nav#menu ul li a {
+
+    color: black;
+    text-align: left;
+
+    display: block;
+    text-decoration: none;
+}
+
+.main{
+
+    margin: 20px 40px 100px 20px;
+    text-align:left;
+    color:black;
+    float:left;
+    width:70%;
+    padding: 20px ; 
+    border : 1px black solid;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+}
+.btn-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+ .fitimg {
+    width: 40%;
+    height: 80%;
+  }
+  .centerimg {
+    display: block;
+    margin: auto;
+  }
+
+
+
+
+
+
+
+
